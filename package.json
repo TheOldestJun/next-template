@@ -9,7 +9,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prettier": "npm run prettier --write"
+    "prettier": "npm run prettier --write",
+    "prepare": "husky install"
   },
   "dependencies": {
     "eslint": "8.27.0",
@@ -19,6 +20,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "husky": "^8.0.2",
     "prettier": "^2.7.1"
   }
 }
