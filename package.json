@@ -1,12 +1,15 @@
 {
   "name": "next-template",
-  "version": "0.1.0",
+  "author": "Stanislav Pukha",
+  "description": "A template for next apps with linter, prettier and storybook for to use in future projects",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "npm run prettier --write"
   },
   "dependencies": {
     "eslint": "8.27.0",
@@ -14,5 +17,8 @@
     "next": "13.0.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
   }
 }
